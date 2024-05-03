@@ -27,7 +27,7 @@ status "Setting up varnish"
 mkdir varnish
 cd varnish
 tar xzf $compile_varnish_tgz
-
+ls -l
 status "Copying config files into etc/varnish/"
 cd etc/varnish
 ls -l
