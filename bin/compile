@@ -32,7 +32,7 @@ status "Copying config files into etc/varnish/"
 cd etc/varnish
 ls -l
 pwd
-rm varnish.vcl
+ls -l
 cp -r -f $build_dir/etc/* /
 
 if [[ ! -f boot.sh ]]; then
