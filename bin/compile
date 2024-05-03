@@ -32,7 +32,7 @@ status "Copying config files into etc/varnish/"
 cd etc/varnish
 ls -l
 
-cp -r $build_dir/etc/* /
+cp -r -f $build_dir/etc/* /
 
 if [[ ! -f boot.sh ]]; then
     cp $compile_buildpack_bin/boot.sh .
