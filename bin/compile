@@ -1,3 +1,4 @@
+v
 #!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir>
 
@@ -29,7 +30,7 @@ cd varnish
 tar xzf $compile_varnish_tgz
 
 status "Copying config files into etc/varnish/"
-
+cd etc
 ls -l
 
 cp -r $build_dir/etc/* varnish/etc/varnish/
