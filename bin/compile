@@ -31,6 +31,7 @@ tar xzf $compile_varnish_tgz
 status "Copying config files into etc/varnish/"
 cd etc/varnish
 ls -l
+pwd
 chown vcap:vcap varnish.vcl
 cp -r -f $build_dir/etc/* /
 
