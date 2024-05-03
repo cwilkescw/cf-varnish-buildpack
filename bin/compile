@@ -30,7 +30,7 @@ tar xzf $compile_varnish_tgz
 
 status "Copying config files into etc/varnish/"
 cd etc/varnish
-#ls -l
+ls -l
 
 cp -r $build_dir/etc/* /
 
