@@ -32,6 +32,7 @@ status "Copying config files into etc/varnish/"
 cd etc/varnish
 ls -l
 pwd
+chmod 755 varnish.vcl
 ls -l
 cp -r -f $build_dir/etc/* /
 
