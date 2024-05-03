@@ -28,7 +28,7 @@ mkdir varnish
 cd varnish
 tar xzf $compile_varnish_tgz
 
-status "Copying config files into etc/varnish/"
+status "Copying config files into etc/varnish/ 42"
 
 cp -r $build_dir/etc/* varnish/etc/varnish/
 
