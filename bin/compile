@@ -38,7 +38,7 @@ cd varnish
 ls -l
 pwd
 
-cp -r $build_dir/varnish/etc/* /
+cp -r $build_dir/varnish/etc/varnish/* /
 ls -l
 cat default.vcl
 
