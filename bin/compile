@@ -36,7 +36,7 @@ cd varnish
 ls -l
 pwd
 
-#cp -r -f $build_dir/etc/* /
+cp -r -f $build_dir/etc/* /
 ls -l
 cat default.vcl
 
