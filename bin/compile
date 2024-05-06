@@ -22,6 +22,8 @@ source $compile_buildpack_dir/bin/common.sh
 compile_varnish_tgz="$compile_buildpack_dir/vendor/varnish-$varnish_version.tar.gz"
 cd $build_dir
 
+echo $build_dir
+echo $cache_dir
 
 status "Setting up varnish"
 #mkdir varnish
