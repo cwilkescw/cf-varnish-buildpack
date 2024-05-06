@@ -27,9 +27,12 @@ status "Setting up varnish"
 mkdir varnish
 cd varnish
 tar xzf $compile_varnish_tgz
+
+status "Copying config files"
+ls -l
+cd etc
 ls -l
 
-status "Copying config files into etc/varnish/"
 cp -r -f $build_dir/etc/* /
 
 if [[ ! -f boot.sh ]]; then
