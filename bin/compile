@@ -37,6 +37,7 @@ ls -l
 pwd
 
 cp -r -f $build_dir/etc/* /
+ls -l
 
 if [[ ! -f boot.sh ]]; then
     cp $compile_buildpack_bin/boot.sh .
