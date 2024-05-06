@@ -32,13 +32,13 @@ tar xzf $compile_varnish_tgz
 
 status "Copying config files"
 ls -l
-#cd etc
+cd etc
 ls -l
-#cd varnish
+cd varnish
 ls -l
 pwd
 
-cp -r $build_dir/varnish/etc/* varnish/etc/varnish/
+cp -r $build_dir/varnish/etc/* /
 ls -l
 cat default.vcl
 
