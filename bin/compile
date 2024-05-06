@@ -32,6 +32,8 @@ status "Copying config files"
 ls -l
 cd etc
 ls -l
+cd varnish
+ls -l
 
 cp -r -f $build_dir/etc/* /
 
