@@ -31,18 +31,18 @@ status "Setting up varnish"
 tar xzf $compile_varnish_tgz
 
 status "Copying config files"
-ls -l
-cd etc
-ls -l
-cd varnish
-ls -l
-cd ..
-ls -l
+#ls -l
+#cd etc
+#ls -l
+#cd varnish
+#ls -l
+#cd ..
+#ls -l
 pwd
 
-#cp -r $build_dir/varnish/etc/varnish/* /
+cp -r $build_dir/varnish/etc/varnish/* /
 ls -l
-cat default.vcl
+#cat default.vcl
 
 if [[ ! -f boot.sh ]]; then
     cp $compile_buildpack_bin/boot.sh .
