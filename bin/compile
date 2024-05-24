@@ -44,6 +44,7 @@ pwd
 
 ls -l
 #cat default.vcl
+echo $compile_buildpack_bin
 
 if [[ ! -f boot.sh ]]; then
     cp $compile_buildpack_bin/boot.sh .
