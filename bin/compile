@@ -36,6 +36,8 @@ cd etc
 ls -l
 cd varnish
 ls -l
+cd ..
+ls -l
 pwd
 
 #cp -r $build_dir/varnish/etc/varnish/* /
