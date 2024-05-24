@@ -31,7 +31,7 @@ status "Setting up varnish"
 tar xzf $compile_varnish_tgz
 
 status "Copying config files"
-#ls -l
+ls -l
 #cd etc
 #ls -l
 #cd varnish
