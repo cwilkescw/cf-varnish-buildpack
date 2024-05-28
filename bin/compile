@@ -11,8 +11,8 @@ cache_dir=$2
 
 # Version
 #varnish_version="1.5.10"
-#varnish_version="3.0.6"
-varnish_version="7.4.2"
+varnish_version="3.0.6"
+#varnish_version="7.4.2"
 
 compile_buildpack_dir=$(cd $(dirname $0); cd ..; pwd)
 compile_buildpack_bin=$compile_buildpack_dir/bin
