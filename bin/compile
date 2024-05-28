@@ -34,13 +34,13 @@ status "Copying config files"
 pwd
 ls -l
 
-#ls -l
-#cd etc/varnish
-#ls -l
-#cd varnish
-#ls -l
-#cd ..
-#ls -l
+status "CP from..."
+cd $build_dir/varnish/
+ls -l
+
+status "CP to..."
+cd /etc/varnish/
+ls -l
 
 cp -r $build_dir/varnish/* /etc/varnish/
 
