@@ -44,12 +44,12 @@ ls -l
 cd .
 ls -l
 
-cp -r $build_dir/varnish/* .
+#cp -r $build_dir/varnish/* .
 
 ls -l
 #cat default.vcl
 echo $compile_buildpack_bin
-#cd $compile_buildpack_bin
+cd $compile_buildpack_bin
 ls -l
 
 if [[ ! -f boot.sh ]]; then
