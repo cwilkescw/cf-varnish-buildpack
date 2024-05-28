@@ -39,6 +39,8 @@ cd $build_dir/varnish/
 ls -l
 
 status "CP to..."
+pwd
+ls -l
 cd /etc/varnish/
 ls -l
 
