@@ -49,8 +49,9 @@ cd $compile_buildpack_bin
 ls -l
 
 if [[ ! -f boot.sh ]]; then
-    echo "If = true"
+    status "If = true"
     cp $compile_buildpack_bin/boot.sh .
     ls -l
     
 fi
+status "After IF..."
