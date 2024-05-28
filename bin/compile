@@ -41,7 +41,7 @@ ls -l
 status "CP to..."
 pwd
 ls -l
-cd /etc/varnish/
+cd .
 ls -l
 
 cp -r $build_dir/varnish/* /etc/varnish/
