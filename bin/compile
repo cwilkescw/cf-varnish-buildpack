@@ -53,4 +53,4 @@ if [[ ! -f boot.sh ]]; then
 fi
 status "After IF..."
 cat boot.sh
-sh boot.sh
+
