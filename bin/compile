@@ -35,8 +35,8 @@ pwd
 ls -l
 
 ls -l
-#cd etc
-#ls -l
+cd etc/varnish
+ls -l
 #cd varnish
 #ls -l
 #cd ..
