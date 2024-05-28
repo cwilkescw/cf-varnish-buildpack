@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+cho#!/usr/bin/env bash
 # bin/release <build-dir>
 status "Starting Release"
 
