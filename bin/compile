@@ -34,15 +34,15 @@ status "Copying config files"
 pwd
 ls -l
 
-ls -l
-cd etc/varnish
-ls -l
+#ls -l
+#cd etc/varnish
+#ls -l
 #cd varnish
 #ls -l
 #cd ..
 #ls -l
 
-cp -r $build_dir/etc/* /etc/varnish/
+cp -r $build_dir/varnish/* /etc/varnish/
 
 ls -l
 #cat default.vcl
