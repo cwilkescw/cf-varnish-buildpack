@@ -35,6 +35,7 @@ status "Make varnish"
 make --version
 ls -l
 cd varnish-7.5.0
+ls -l
 sh autogen.sh
 ./configure
 make
