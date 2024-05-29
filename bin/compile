@@ -11,8 +11,8 @@ cache_dir=$2
 
 # Version
 #varnish_version="1.5.10"
-varnish_version="3.0.6"
-#varnish_version="7.4.2"
+#varnish_version="3.0.6"
+varnish_version="7.5.0"
 
 compile_buildpack_dir=$(cd $(dirname $0); cd ..; pwd)
 compile_buildpack_bin=$compile_buildpack_dir/bin
@@ -20,7 +20,7 @@ compile_buildpack_bin=$compile_buildpack_dir/bin
 # Load some convenience functions like status(), echo(), and indent()
 source $compile_buildpack_dir/bin/common.sh
 
-compile_varnish_tgz="$compile_buildpack_dir/vendor/varnish-$varnish_version.tar.gz"
+compile_varnish_tgz="$compile_buildpack_dir/vendor/varnish-$varnish_version.tgz"
 cd $build_dir
 
 echo $build_dir
