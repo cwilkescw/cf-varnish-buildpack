@@ -32,7 +32,7 @@ cd varnish
 tar xzf $compile_varnish_tgz
 
 status "Make varnish"
-apt-get install make automake autotools-dev libedit-dev libjemalloc-dev libncurses-dev libpcre2-dev libtool pkg-config
+apt-get install make automake autotools-dev libedit-dev libjemalloc-dev libncurses-dev libpcre2-dev libtool pkg-config libtoolize
 
 make --version
 ls -l
