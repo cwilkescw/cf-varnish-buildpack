@@ -33,6 +33,7 @@ tar xzf $compile_varnish_tgz
 
 status "Make varnish"
 make --version
+ls -l
 sh autogen.sh
 ./configure
 make
