@@ -22,6 +22,7 @@ source $compile_buildpack_dir/bin/common.sh
 
 compile_varnish_tgz="$compile_buildpack_dir/vendor/varnish-$varnish_version.tgz"
 cd $build_dir
+make --version
 
 echo $build_dir
 echo $cache_dir
