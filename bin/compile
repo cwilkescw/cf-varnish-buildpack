@@ -33,7 +33,10 @@ tar xzf $compile_varnish_tgz
 
 status "Make varnish"
 make --version
+./autogen.sh
+./configure
 make
+make install
 
 status "Copying config files"
 pwd
