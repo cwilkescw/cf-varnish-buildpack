@@ -32,6 +32,7 @@ cd varnish
 tar xzf $compile_varnish_tgz
 
 status "Make varnish"
+make --version
 make
 
 status "Copying config files"
