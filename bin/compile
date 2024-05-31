@@ -36,7 +36,7 @@ pwd
 ls -l
 
 status "Is varnish here..."
-cd $build_dir/varnish/varnish-7.5.0/bin
+cd $build_dir/varnish/varnish-7.5.0/bin/varnishd/
 ls -l
 
 
