@@ -45,7 +45,7 @@ ls -l
 cd .
 ls -l
 
-#cp -r $build_dir/varnish/* .
+cp -r $build_dir/varnish/* .
 
 ls -l
 #cat default.vcl
