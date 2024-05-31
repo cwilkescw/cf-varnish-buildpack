@@ -31,19 +31,6 @@ mkdir varnish
 cd varnish
 tar xzf $compile_varnish_tgz
 
-status "Make varnish"
-#apt-get install make automake autotools-dev libedit-dev libjemalloc-dev libncurses-dev libpcre2-dev libtool pkg-config libtoolize
-
-make --version
-libtoolize --version
-ls -l
-cd varnish-7.5.0
-ls -l
-sh autogen.sh
-sh configure
-make
-make install
-
 status "Copying config files"
 pwd
 ls -l
