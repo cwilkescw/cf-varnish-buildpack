@@ -15,13 +15,13 @@
 export APP_ROOT=$HOME
 export LD_LIBRARY_PATH=$APP_ROOT/varnish/lib:$LD_LIBRARY_PATH
 
-
 if [ -z "$VARNISH_MEMORY_LIMIT" ]; then
     VARNISH_MEMORY_LIMIT=$MEMORY_LIMIT
 fi
 
 # check varnish config
 # This is a VCL validator. cw 2024-05-29
+#$APP_ROOT/sbin/varnishd -C -f $APP_ROOT/etc/varnish/default.vcl 2>&1
 $APP_ROOT/sbin/varnishd -C -f $APP_ROOT/etc/varnish/default.vcl 2>&1
 
 # TODO, Make MEMORY_LIMIT adjustable, this now comes from CF itself
