@@ -35,9 +35,9 @@ status "Copying config files"
 pwd
 ls -l
 
-status "Is varnish here..."
-cd $build_dir/varnish/varnish-7.5.0/bin/varnishd/
-ls -l
+#status "Is varnish here..."
+#cd $build_dir/varnish/varnish-7.5.0/bin/varnishd/
+#ls -l
 
 
 #cp -r $build_dir/varnish/* .
