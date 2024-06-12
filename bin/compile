@@ -20,7 +20,7 @@ source $compile_buildpack_dir/bin/common.sh
 
 compile_varnish_tgz="$compile_buildpack_dir/vendor/varnish-$varnish_version.tar.gz"
 
-status "Un-tar varnish"
+status "Un-tar Varnish"
 mkdir varnish
 cd varnish
 
@@ -33,7 +33,7 @@ pwd
 ls -l
 
 status "Build dependencies for Ubuntu"
-
+sudo apt-get install make
 
 pwd
 ls -l
