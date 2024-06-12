@@ -19,14 +19,12 @@ compile_buildpack_bin=$compile_buildpack_dir/bin
 source $compile_buildpack_dir/bin/common.sh
 
 compile_varnish_tgz="$compile_buildpack_dir/vendor/varnish-$varnish_version.tar.gz"
-cd $build_dir
-
-echo $compile_buildpack_dir
 
 status "Setting up varnish"
 mkdir varnish
 cd varnish
 tar xzf $compile_varnish_tgz
+pwd ls -l
 
 status "Copying config files"
 pwd
