@@ -35,7 +35,6 @@ ls -l
 status "Build dependencies for Ubuntu"
 ps aux | grep -e apt -e dpkg
 cd /var/lib/dpkg/
-chmod 755 lock-frontend
 pwd
 ls -l
 
