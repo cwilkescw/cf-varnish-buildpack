@@ -23,7 +23,12 @@ compile_varnish_tgz="$compile_buildpack_dir/vendor/varnish-$varnish_version.tar.
 status "Setting up varnish"
 mkdir varnish
 cd varnish
+
+# UN tar the files
 tar xzf $compile_varnish_tgz
+pwd
+ls -l
+cd varnish-$varnish_version
 pwd
 ls -l
 
