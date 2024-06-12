@@ -38,7 +38,7 @@ cd /var/lib/dpkg/
 pwd
 ls -l
 
-sudo apt-get install make
+apt-get install -y make
 
 pwd
 ls -l
