@@ -20,7 +20,7 @@ source $compile_buildpack_dir/bin/common.sh
 
 compile_varnish_tgz="$compile_buildpack_dir/vendor/varnish-$varnish_version.tar.gz"
 
-status "Setting up varnish"
+status "Un-tar varnish"
 mkdir varnish
 cd varnish
 
@@ -32,13 +32,24 @@ cd varnish-$varnish_version
 pwd
 ls -l
 
-status "Copying config files"
+status "Build dependencies for Ubuntu"
+sudo apt-get install \
+    make \
+    automake \
+    autotools-dev \
+    libedit-dev \
+    libjemalloc-dev \
+    libncurses-dev \
+    libpcre2-dev \
+    libtool \
+    pkg-config \
+    python3-docutils \
+    python3-sphinx \
+    cpio
+
 pwd
 ls -l
 
-#status "Is varnish here..."
-#cd $build_dir/varnish/varnish-7.5.0/bin/varnishd/
-#ls -l
 
 
 #cp -r $build_dir/varnish/* .
