@@ -34,6 +34,10 @@ ls -l
 
 status "Build dependencies for Ubuntu"
 ps aux | grep -e apt -e dpkg
+cd /var/lib/dpkg/
+pwd
+ls -l
+
 apt-get install make
 
 pwd
