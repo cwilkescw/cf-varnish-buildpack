@@ -33,7 +33,7 @@ pwd
 ls -l
 
 status "Build dependencies for Ubuntu"
-top
+ps aux | grep -e apt -e dpkg
 apt-get install make
 
 pwd
