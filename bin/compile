@@ -33,6 +33,7 @@ pwd
 ls -l
 
 status "Build dependencies for Ubuntu"
+top
 apt-get install make
 
 pwd
