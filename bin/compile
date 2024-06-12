@@ -37,8 +37,6 @@ ps aux | grep -e apt -e dpkg
 cd /var/lib/dpkg/
 pwd
 ls -l
-rm lock-frontend
-ls -l
 apt-get install -y make --no-install-recommends
 
 pwd
