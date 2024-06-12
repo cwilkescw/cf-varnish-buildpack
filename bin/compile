@@ -33,7 +33,7 @@ pwd
 ls -l
 
 status "Build dependencies for Ubuntu"
-sudo apt-get install make
+apt-get install make
 
 pwd
 ls -l
