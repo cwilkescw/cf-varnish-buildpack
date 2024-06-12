@@ -24,7 +24,8 @@ status "Setting up varnish"
 mkdir varnish
 cd varnish
 tar xzf $compile_varnish_tgz
-pwd ls -l
+pwd
+ls -l
 
 status "Copying config files"
 pwd
