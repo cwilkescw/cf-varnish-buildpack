@@ -37,7 +37,7 @@ ps aux | grep -e apt -e dpkg
 cd /var/lib/dpkg/
 pwd
 ls -l
-
+sleep 10
 apt-get install -y make --no-install-recommends
 
 pwd
