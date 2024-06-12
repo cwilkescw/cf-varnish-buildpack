@@ -16,7 +16,7 @@ compile_buildpack_dir=$(cd $(dirname $0); cd ..; pwd)
 compile_buildpack_bin=$compile_buildpack_dir/bin
 
 # Load some convenience functions like status(), echo(), and indent()
-ststus "-----> Staring common.sh"
+status "-----> Staring common.sh"
 source $compile_buildpack_dir/bin/common.sh
 
 compile_varnish_tgz="$compile_buildpack_dir/vendor/varnish-$varnish_version.tar.gz"
