@@ -49,6 +49,3 @@ ls -l
 if [[ ! -f boot.sh ]]; then
     cp $compile_buildpack_bin/boot.sh .    
 fi
-status "After IF..."
-cat boot.sh
-
