@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+-#!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir>
 
 set -e            # fail fast
@@ -18,7 +18,7 @@ compile_buildpack_bin=$compile_buildpack_dir/bin
 # Load some convenience functions like status(), echo(), and indent()
 source $compile_buildpack_dir/bin/common.sh
 
-compile_varnish_tgz="$compile_buildpack_dir/vendor/varnish-$varnish_version-cache.zip"
+compile_varnish_tgz="$compile_buildpack_dir/vendor/varnish-cache-$varnish_version.zip"
 
 status "Un-tar Varnish"
 mkdir varnish
