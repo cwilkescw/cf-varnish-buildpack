@@ -27,7 +27,8 @@ pwd
 ls -l
 
 # UN tar the files
-tar xzf $compile_varnish_tar_gz .
+$compile_varnish_tar_gz
+tar xzf $compile_varnish_tar_gz
 pwd
 ls -l
 
