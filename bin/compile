@@ -39,7 +39,7 @@ cd sbin
 pwd
 ls -l
 
-./varnishd -V
+#./varnishd -V
 
 status "Build dependencies for Ubuntu"
 #ps aux | grep -e apt -e dpkg
