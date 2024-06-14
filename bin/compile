@@ -28,7 +28,7 @@ cd varnish
 tar xzf $compile_varnish_tgz
 pwd
 ls -l
-cd varnish-cache-$varnish_version
+#cd varnish-cache-$varnish_version
 pwd
 ls -l
 
