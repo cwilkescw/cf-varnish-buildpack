@@ -35,6 +35,9 @@ ls -l
 cd varnish-cache
 pwd
 ls -l
+cd sbin
+pwd
+ls -l
 
 status "Build dependencies for Ubuntu"
 #ps aux | grep -e apt -e dpkg
