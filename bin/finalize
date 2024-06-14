@@ -1,1 +1,21 @@
+#!/usr/bin/env ruby
 
+#sync output
+
+$stdout.sync = true
+
+build_path = ARGV[0]
+cache_path = ARGV[1]
+deps_path = ARGV[2]
+index = ARGV[3]
+
+setup_ruby
+
+private
+
+def setup_ruby
+  puts "Configuring your app to use Ruby??"
+
+  # !!! build tasks go here !!!
+  # setup ruby
+end
