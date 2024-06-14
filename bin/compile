@@ -39,7 +39,6 @@ cd sbin
 pwd
 ls -l
 
-apt-get install -y libjemalloc-dev
 ./varnishd -V
 
 status "Build dependencies for Ubuntu"
